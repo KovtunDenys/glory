@@ -1,0 +1,17 @@
+.title{
+    color: #ffffff;
+}
+.leaders-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .title{
+        color: #ffffff;
+        margin: 20px;
+    }
+
+    .img{
+      width: 400px;
+      height: 400px;
+    }
+}

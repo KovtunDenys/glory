@@ -1,0 +1,103 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .info{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0px;
+
+        .img{
+            background-image: url('../img/logo.jpg');
+            width: 150px;
+            height: 150px;
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            border-radius: 50%;
+        }
+
+        .score{
+            color: white;
+            font-size: 40px;
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+
+        .currency{
+            color: lightgray;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .user-name{
+            color: white;
+            margin-top: 10px;
+            font-size: 20px;
+        }
+        
+    }
+
+    .tasks{
+       margin: 15px;
+       color: rgb(221, 219, 219);
+
+       .task-col{
+        display: flex;
+        color: white;
+        justify-content: space-between;
+        margin-top: 10px;
+        border-radius: 17px;
+
+        .task-title{
+            display: flex;
+
+            .task-info{
+                display: flex;
+                flex-direction: column;
+                color: rgb(230, 230, 230);
+
+                .task-price{
+                    color: #BABABA;
+                   
+                }
+            }
+        }
+
+
+        
+        .task-img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 45px;
+            height: 45px;
+            background-color: #1f202380;
+            border-radius: 50%;
+            margin-right: 5px;
+            img{
+            width: 20px;
+            height: 20px;
+            align-self: center;
+            
+        }
+        }
+
+    }}
+
+    .ton-img{
+        background-image: url('../img/ton2.jpg');
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        margin: 5px;
+
+    }
+}

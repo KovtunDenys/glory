@@ -1,0 +1,64 @@
+.main-airdrop{
+    background: linear-gradient(to top, black, rgb(60, 93, 160));
+
+    .header-airdrop{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .img-air-logo{
+            background-image: url('../img/logo.jpg');
+            width: 50px;
+            height: 50px;
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            border-radius: 50%;
+            margin: 20px 0px
+        }
+    }
+    .airdrop-info{
+        display: flex;
+        border-top: 2px solid rgb(138, 135, 135);
+        border-radius: 50px;
+        padding: 5px;
+        p{  
+            padding: 0px 30px;
+            margin: 0px;
+            color: #a7a3a3;
+            text-align: center;
+        }
+        h3{
+            text-align: center;
+            color: white;
+        }
+
+        
+    }
+     .stat-col{
+            display: flex;
+            color: white;
+            justify-content: space-between;
+            padding: 15px;
+            margin-top: 10px;
+            background-color:#3b3b3b;
+            border-radius: 17px;
+            margin: 10px;
+
+
+            img{
+                width: 34px;
+                padding-right: 15px;
+            }
+            span{
+                position: relative;
+                top: -10px;
+            }
+
+            .stat-balance{
+                position: relative;
+                top: 15px;
+            }
+          }
+   
+}
