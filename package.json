@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-  "node": "20.x",
-  "npm": "10.x"
-},
+    "node": "20.x",
+    "npm": "10.x"
+  },
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
@@ -75,6 +75,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "concurrently": "^9.1.0",
     "react-app-rewired": "^2.2.1"
   }
